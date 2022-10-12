@@ -25,4 +25,3 @@ function createDeleteButton(id) {
     };
     return btn;
 }
-console.log("hello world");
