@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New iPhone 14</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">New Phone release</a>
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <br>
+    <div class="card">
+        <div class="card-body">
+        <div class="row">
+        <div class="col-sm">
+        <div class="form-group"
+        <label for="new-order-date">Date to order phone</label>
+        <input type="date" class="form-control" id="new-order-date">
+        </div>
+        </div>
+        <div class="col-sm"
+        <div class="form-group">
+        <label for="new-collect-date">Date to collect phone</label>
+        <input type="date" class="form-control" id="new-collect-date">
+        </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-sm">
+        <div class="form-group">
+            <label for="new-task">Phone name</label>
+            <input type="text" class="form-control" id="new-task" placeholder="Phone">
+        </div>
+    </div>
+    <div>
+    <button id="add" class="btn btn-primary formm control"> Create</button>
+    </div>
+    </div>
+    <table id="list" class="table table-dark table striped">
+      <tr>
+        <th>Phone</th>
+        <th>Date created</th>
+        <th>Date to order phone</th>
+        <th>Date to collect phone</th>
+        <th>Actions</th>
+      </tr>
+    </table>
+    
+      <img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-iPhone-14-Plus-hero-220907_Full-Bleed-Image.jpg.large.jpg" class="rounded-circle">
+
+    <table class="table table-light">
+        <thead>
+         <tr>
+           <th scope="col"></th>
+           <th scope="col">Stores available</th>
+           <th scope="col">Location</th>
+         </tr>
+        </thead> 
+        <tbody>
+         <tr>
+           <th scope="row">1</th>
+           <td> T-mobile</td>
+           <td>1226 Fulton St, Brooklyn, NY</td>
+         </tr>
+         <th scope="row">2</th>
+           <td> Verizon</td>
+           <td>139 Flatbush Ave</td>
+       </tr>
+       <th scope="row">3</th>
+       <td> Apple</td>
+       <td> www.apple.com</td>
+        </tbody>
+       </table>
+       <script src="assignment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
